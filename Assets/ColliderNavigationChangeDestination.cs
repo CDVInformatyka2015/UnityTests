@@ -22,7 +22,7 @@ public class ColliderNavigationChangeDestination : MonoBehaviour {
 
     void OnTriggerStay(){
         i++;
-        if (i>100){
+        if (i>50){
             find.find = !find.find;
             i=0;
         }
